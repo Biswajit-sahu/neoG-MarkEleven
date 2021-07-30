@@ -21,10 +21,10 @@ form.addEventListener("submit", (e) => {
         sum = sum + birth[i];
     }
     if (sum % luckyValue === 0) {
-        output.textContent = "hooray ! you are a Lucky Person ";
+        output.textContent = "Hooray ! You are a Lucky Person ";
         image.src = "./gifs/Lucky.gif "
     } else {
-        output.textContent = "Oops!!Your birthday is not a lucky number!";
+        output.textContent = "Ooops!!!Your birthday is not a lucky number!";
         image.src = "./gifs/Unlucky.gif";
     }
 });
