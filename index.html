@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Birthday</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>Is your BirthDay Lucky?</h1>
+        <h3>Let's Check !</h3>
+        <div class="privacy">
+            <strong style="color: red;"> Privacy Notice: </strong>Your privacy is our concern,
+            We are not storing your data
+            <span class="close">❌</span>
+        </div>
+        <form id="form">
+            <h2>Enter your Birth day</h2>
+            <input required="required" id="birthDate" type="date">
+            <h2>Enter your Lucky Number</h2>
+            <input type="number" min="1" step="1" required="required" id="luckyNumber" placeholder="Enter Lucky Number">
+            <button type="submit">Check</button>
+        </form>
+        <h3 id="output"></h3>
+        <img class="image" id="image">
+    </div>
+
+    <footer class="footer">
+        <div class="footer-header">Connect me through </div>
+        <a href="" target="_blank">
+            <i class="fa fa-linkedin-square" style="font-size: 36px"></i></a>
+        <a href="https://twitter.com/BISWAJIT_001" target="_blank">
+            <i class="fa fa-twitter-square" style="font-size: 36px"></i></a>
+        <a href="https://github.com/Biswajit-sahu" target="_blank">
+            <i class="fa fa-github-square" style="font-size: 36px"></i></a>
+    </footer>
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>

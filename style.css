@@ -1,0 +1,83 @@
+:root {
+    --white: #fff;
+}
+
+body {
+    background-color: #A78BFA;
+
+
+}
+
+.box {
+    width: 100%;
+    max-width: 550px;
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 40px;
+    border: 1px solid #111;
+    background-color: #D1FAE5;
+
+}
+
+.privacy {
+    box-sizing: border-box;
+    border-radius: 17px;
+    border: 2px solid springgreen;
+    background-color: white;
+    font-weight: bold;
+    padding: 0.4rem;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    display: block;
+    margin: auto;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    border: 1px solid;
+}
+
+button {
+    cursor: pointer;
+    background-color: #D1FAE5;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: springgreen;
+    font-weight: 800;
+}
+
+.close {
+    cursor: pointer;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.image {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.footer {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    border-radius: 30px;
+    border: 1px solid #111;
+    background-color: springgreen;
+
+}
+
+.footer-header {
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
